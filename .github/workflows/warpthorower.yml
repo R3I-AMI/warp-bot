@@ -14,7 +14,7 @@ on:
   watch:
     types: [started]
 env:
-  USERNAME: R3AMI  
+  USERNAME: R3I-AMI  
    
 jobs:
   build:
