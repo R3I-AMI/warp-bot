@@ -3,7 +3,7 @@ system("clear");
 $id = "c0cc9584-c587-4050-ae79-feec48cb279a";
 echo "\n";
 for ($i=1; $i <= 300; $i++) {
-	sleep(5); // Recommend 18 second
+	sleep(18); // Recommend 18 second
 	$api = curl($id);
 	if ($api == "success") {
 		echo "$i.Success Send 1GB\n";
