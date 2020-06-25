@@ -33,4 +33,10 @@ jobs:
        name: Initializing environment
          run: |
            sudo -E apt-get -qq update
-           sudo -E apt-get -qq install 
+           sudo -E apt-get -qq install wget php
+       name: Cloning script
+         run: |
+           wget
+       name: Running script
+         run: |
+          php warpy.php
