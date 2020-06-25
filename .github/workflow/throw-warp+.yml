@@ -13,7 +13,8 @@ on:
 #    - cron: 0 8 * * 5
   watch:
     types: [started]
-    
+env:
+  USERNAME: Area69Lab     
 jobs:
   build:
     runs-on: ubuntu-latest
